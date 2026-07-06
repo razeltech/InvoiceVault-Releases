@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ── Primary SEO ── -->
+    <title>InvoiceVault — GST Billing Software for Indian Small Businesses</title>
+    <meta name="description" content="InvoiceVault is offline GST billing and business management software built for Indian SMBs. Create GST invoices, generate GSTR-1 & GSTR-3B data, track inventory — all on your own computer. One-time license, no subscription, no cloud." />
+    <meta name="keywords" content="GST billing software, invoice software India, GSTR-1 GSTR-3B, offline GST software, small business billing India, GST invoice app Windows" />
+    <meta name="author" content="RazelTech Solutions" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://invoicevault.razeltech.in/" />
+
+    <!-- ── Open Graph ── -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://invoicevault.razeltech.in/" />
+    <meta property="og:title" content="InvoiceVault — GST Billing Software for Indian Small Businesses" />
+    <meta property="og:description" content="Offline GST billing, GSTR-1 & GSTR-3B data, inventory tracking — one-time license. Your data stays on your machine." />
+    <meta property="og:image" content="https://invoicevault.razeltech.in/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="InvoiceVault" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- ── Twitter Card ── -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="InvoiceVault — GST Billing for Indian SMBs" />
+    <meta name="twitter:description" content="Offline GST invoicing, GSTR-1 & GSTR-3B data, one-time license. No subscription, no cloud." />
+    <meta name="twitter:image" content="https://invoicevault.razeltech.in/og-image.png" />
+
+    <!-- ── Favicons ── -->
+    <link rel="icon" type="image/svg+xml" href="/InvoiceVaultDemo/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/InvoiceVaultDemo/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/InvoiceVaultDemo/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/InvoiceVaultDemo/apple-touch-icon.png" />
+    <link rel="manifest" href="/InvoiceVaultDemo/site.webmanifest" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="msapplication-TileColor" content="#0f172a" />
+
+    <!-- ── Fonts ── -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- ── Structured Data (JSON-LD) ── -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "InvoiceVault",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Windows",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR",
+        "description": "7-day free trial"
+      },
+      "description": "Offline GST billing and business management software for Indian small businesses. Create GST invoices, generate GSTR-1 & GSTR-3B data, manage inventory — all on your own computer.",
+      "author": {
+        "@type": "Organization",
+        "name": "RazelTech Solutions",
+        "url": "https://razeltech.in"
+      },
+      "url": "https://invoicevault.razeltech.in/",
+      "screenshot": "https://invoicevault.razeltech.in/screenshots/dashboard.png",
+      "featureList": [
+        "GST Invoice generation",
+        "GSTR-1 and GSTR-3B data export",
+        "Offline-first operation",
+        "Inventory management",
+        "Customer and vendor ledger",
+        "Expense tracking"
+      ]
+    }
+    </script>
+
+    <!-- ── Spinner CSS ── -->
+    <style>
+      #app-loading {
+        position: fixed;
+        inset: 0;
+        background: #0f172a;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        transition: opacity 0.3s ease;
+      }
+      #app-loading.hidden {
+        opacity: 0;
+        pointer-events: none;
+      }
+      .iv-spinner {
+        width: 40px;
+        height: 40px;
+        border: 3px solid rgba(22, 163, 74, 0.2);
+        border-top-color: #16a34a;
+        border-radius: 50%;
+        animation: spin 0.8s linear infinite;
+      }
+      .iv-spinner-label {
+        margin-top: 16px;
+        color: #475569;
+        font-family: 'Inter', system-ui, sans-serif;
+        font-size: 13px;
+        letter-spacing: 0.02em;
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+    <script type="module" crossorigin src="/InvoiceVaultDemo/assets/index-Cqn7C8cM.js"></script>
+    <link rel="stylesheet" crossorigin href="/InvoiceVaultDemo/assets/index-BrRC922a.css">
+  </head>
+  <body>
+    <!-- Loading spinner — hidden by main.tsx after React mounts -->
+    <div id="app-loading">
+      <div class="iv-spinner"></div>
+      <p class="iv-spinner-label">Loading InvoiceVault...</p>
+    </div>
+
+    <div id="root"></div>
+  </body>
+</html>

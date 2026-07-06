@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://invoicevault.razeltech.in/sitemap.xml

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Navy background matching RazelTech brand -->
+  <rect width="32" height="32" rx="7" fill="#0f172a"/>
+  <!-- R letterform -->
+  <path d="M7 8h6.5c2.5 0 4.5 2 4.5 4.5S16 17 13.5 17l4 7h-3.5l-3.5-6.5H10V24H7V8z M10 11v3.5h3c1 0 1.5-0.8 1.5-1.75S14 11 13 11H10z" fill="#e2e8f0"/>
+  <!-- T letterform -->
+  <path d="M17 8h8v2.5h-2.75V24H19.5V10.5H17V8z" fill="#16a34a"/>
+</svg>

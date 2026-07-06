@@ -1,0 +1,21 @@
+{
+  "name": "InvoiceVault — GST Billing for Indian SMBs",
+  "short_name": "InvoiceVault",
+  "description": "Offline GST billing software for Indian small businesses",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
